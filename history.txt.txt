@@ -1,0 +1,10 @@
+   23  cat wilders.csv | grep "2019" | grep "PHP" | grep "France" > php_france_2019.csv
+   24  man wc
+   25  cat wilders.csv | grep "2019" | grep "PHP" | grep "France" | wc -l
+   26  cat wilders.csv | grep "2019" | grep "PHP" | grep "France" | wc -l > php_france_2019.csv
+   27  cat php_france_2019.csv 
+   28  cat wilders.csv | grep "JavaScrip" | grep "Toulouse"
+   29  cat wilders.csv | grep "JavaScrip" | grep "Toulouse" > js_toulouse.csv
+   30  cat wilders.csv | grep "JavaScrip" | grep "Biarritz" > js_biarritz.csv
+   31  cat js_toulouse.csv js_biarritz.csv > javascript_biarritz_toulouse.csv
+   32  history | tail -10 > history.txt
